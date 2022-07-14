@@ -4,11 +4,15 @@ class App extends Component {
   // ARROW FUNCTION: () => {}
 
   mensagem = () => {
-    return <h2>Mensagem pela função</h2>;
+    return <h1>UwU</h1>;
   };
 
-  escolhaMensagem = (msg) => {
-    return <h2>{msg}</h2>;
+  dobro = (numero) => {
+    return <h2>O dobro é: {numero * 2}</h2>;
   };
+
+  render() {
+    return this.mensagem();
+  }
 }
 export default App;
