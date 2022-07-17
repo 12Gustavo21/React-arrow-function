@@ -1,4 +1,21 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 10px;
+  color: #d400ff;
+}
+
+h2 {
+  color: #00657e;
 }
